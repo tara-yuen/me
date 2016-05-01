@@ -90,7 +90,7 @@ html {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/tarayuen.png");
+  background-image: url(tarayuen.png");
   right: 0px;
   width: 30vw;
   margin-right: -50%;
@@ -108,7 +108,7 @@ html {
   -webkit-transform: translateZ(-5px) scale(6);
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
-  background-image: url("../img/skiing.jpg");
+  background-image: url("skiing.jpg");
   background-size: 100%;
   height: 100vh;
   z-index: -10;
@@ -119,7 +119,7 @@ html {
   -webkit-transform: translateZ(-5px) scale(6);
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
-  background-image: url("../img/sailing.jpg");
+  background-image: url("sailing.jpg");
   background-size: 100%;
   height: 100vh;
   z-index: 1;
@@ -151,7 +151,7 @@ html {
   -webkit-transform: translateZ(-1px) scale(2);
   -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
-  background-image: url("../img/mountain5.png");
+  background-image: url("mountain5.png");
   margin-top: 100%;
   z-index: -3;
 }
@@ -166,7 +166,7 @@ html {
   -webkit-transform: translateZ(-2px) scale(3);
   -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
-  background-image: url("../img/mountain4.png");
+  background-image: url("mountain4.png");
   margin-top: 140%;
   z-index: -4;
 }
@@ -175,7 +175,7 @@ html {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/mountain3.png");
+  background-image: url("mountain3.png");
   margin-top: 145%;
   z-index: -5;
 }
@@ -184,7 +184,7 @@ html {
   -webkit-transform: translateZ(-4px) scale(5);
   -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
-  background-image: url("../img/mountain2.png");
+  background-image: url("mountain2.png");
   margin-top: 175%;
   z-index: -6;
 }
@@ -193,7 +193,7 @@ html {
   -webkit-transform: translateZ(-5px) scale(6);
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
-  background-image: url("../img/mountain1.png");
+  background-image: url("mountain1.png");
   margin-top: 200%;
   z-index: -7;
 }
@@ -201,7 +201,7 @@ html {
   -webkit-transform: translateZ(-1px) scale(2);
   -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
-  background-image: url("../img/wave5.png");
+  background-image: url("wave5.png");
   margin-top: 520%;
   z-index: 6;
 }
@@ -216,7 +216,7 @@ html {
   -webkit-transform: translateZ(-2px) scale(3);
   -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
-  background-image: url("../img/wave4.png");
+  background-image: url("wave4.png");
   margin-top: 560%;
   z-index: 5;
 }
@@ -225,7 +225,7 @@ html {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/wave3.png");
+  background-image: url("wave3.png");
   margin-top: 560%;
   z-index: 4;
 }
@@ -234,7 +234,7 @@ html {
   -webkit-transform: translateZ(-4px) scale(5);
   -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
-  background-image: url("../img/wave2.png");
+  background-image: url("wave2.png");
   margin-top: 610%;
   z-index: 3;
 }
@@ -243,7 +243,7 @@ html {
   -webkit-transform: translateZ(-5px) scale(6);
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
-  background-image: url("../img/wave1.png");
+  background-image: url("wave1.png");
   margin-top: 630%;
   z-index: 2;
 }
