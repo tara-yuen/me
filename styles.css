@@ -1,50 +1,112 @@
 /* Global
 --------------------------------------------- */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 /* Navbar
 --------------------------------------------- */
 .navbar {
-  margin-bottom: 0px;
   background-color: rgba(0, 0, 0, 0.1);
   border: none;
   padding: 20px 0;
   color: #ffffff;
 }
+.navbar .navbar-brand {
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 20px;
+}
 .navbar .nav li a {
-  font-size: 13pt;
   margin-top: 5px;
   color: #ffffff;
 }
+.navbar .nav li a:hover {
+  color: #BDBDBD;
+}
 .navbar .navbar-wrapper {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-.navbar .nav > .active {
-  background-color: #00BCD4;
-  color: #ffffff;
-}
-.navbar .nav > .active > a,
-.navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus {
-  background-color: #00BCD4;
-  color: #ffffff;
 }
 .navbar .navbar-nav > li > a {
   color: #ffffff;
 }
-.navbar #tarayuen {
-  max-width: 100px;
+#github {
+  margin-right: 50px;
 }
+
+/* Profile
+--------------------------------------------- */
+.profile-pic {
+  width: 30%;
+  border-radius: 150px;
+  box-shadow: 2px 2px 3px #000000;
+  position: center;
+}
+.pulse {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40%;
+  font-size: 50px;
+}
+.fa-phone,
+.fa-envelope {
+  margin-right: 10px;
+}
+
+/* Portfolio
+--------------------------------------------- */
+.connect {
+  overflow: auto;
+}
+.connect-pic {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 15%;
+  text-align: left;
+  position: relative;
+  float: right;
+  width: 40%;
+}
+.connect-pic:hover {
+  opacity: 0.8;
+}
+.connect p {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 10;
+  margin-left: 15%;
+}
+.planit {
+  overflow: auto;
+}
+.planit-pic {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 2%;
+  float: left;
+  width: 40%;
+}
+.planit-pic:hover {
+  opacity: 0.8;
+}
+.planit-title {
+  margin-top: 10%;
+}
+.planit p {
+  font-size: 15px;
+  text-align: right;
+  margin-top: 5%;
+  margin-right: 15%;
+  padding-bottom: 100px;
+}
+
 /* Parallax
 --------------------------------------------- */
 body,
 html {
   overflow: hidden;
-  background-color: #424242;
+  background-color: #00838F;
 }
 .parallax {
   height: 100vh;
@@ -90,24 +152,24 @@ html {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url(tarayuen.png");
+  background-image: url(profile.png);
   right: 0px;
-  width: 30vw;
+  width: 20vw;
   margin-right: -50%;
-  margin-top: 13%;
+  margin-top: 5%;
   color: white;
   font-size: 50px;
   letter-spacing: 10px;
   text-align: center;
   margin: auto;
-  margin-top: 76%;
+  margin-top: 50%;
   z-index: -9;
 }
 .parallax .group .bg {
   position: fixed;
-  -webkit-transform: translateZ(-5px) scale(6);
-  -ms-transform: translateZ(-5px) scale(6);
-  transform: translateZ(-5px) scale(6);
+  -webkit-transform: translateZ(-6px) scale(7);
+  -ms-transform: translateZ(-6px) scale(7);
+  transform: translateZ(-6px) scale(7);
   background-image: url("skiing.jpg");
   background-size: 100%;
   height: 100vh;
@@ -115,31 +177,35 @@ html {
 }
 .parallax .group .bg2 {
   position: fixed;
-  margin-top: 400%;
-  -webkit-transform: translateZ(-5px) scale(6);
-  -ms-transform: translateZ(-5px) scale(6);
-  transform: translateZ(-5px) scale(6);
+  margin-top: 270%;
+  -webkit-transform: translateZ(-6px) scale(7);
+  -ms-transform: translateZ(-6px) scale(7);
+  transform: translateZ(-6px) scale(7);
   background-image: url("sailing.jpg");
-  background-size: 100%;
-  height: 100vh;
   z-index: 1;
 }
 .parallax .group .content {
   position: relative;
-  min-height: 500px;
+  min-height: 300px;
   width: 100%;
   line-height: 40px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   margin: auto;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
-.parallax .group .content p {
+.parallax .group .content h1 {
+  font-size: 50px;
+}
+.parallax .group .content .mountains p {
   margin: auto;
+  margin-top: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
-  padding: 50px;
-  max-width: 900px;
+  clear: right;
+  padding-bottom: 100px;
 }
 .parallax .group #about {
   background-color: #26C6DA;
@@ -152,7 +218,7 @@ html {
   -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
   background-image: url("mountain5.png");
-  margin-top: 100%;
+  margin-top: 80%;
   z-index: -3;
 }
 .parallax .group .mountain5 .cover {
@@ -167,7 +233,7 @@ html {
   -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
   background-image: url("mountain4.png");
-  margin-top: 140%;
+  margin-top: 100%;
   z-index: -4;
 }
 .parallax .group .mountain3 {
@@ -176,7 +242,7 @@ html {
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
   background-image: url("mountain3.png");
-  margin-top: 145%;
+  margin-top: 95%;
   z-index: -5;
 }
 .parallax .group .mountain2 {
@@ -185,7 +251,7 @@ html {
   -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
   background-image: url("mountain2.png");
-  margin-top: 175%;
+  margin-top: 120%;
   z-index: -6;
 }
 .parallax .group .mountain1 {
@@ -194,7 +260,7 @@ html {
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
   background-image: url("mountain1.png");
-  margin-top: 200%;
+  margin-top: 130%;
   z-index: -7;
 }
 .parallax .group .wave5 {
@@ -202,7 +268,7 @@ html {
   -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
   background-image: url("wave5.png");
-  margin-top: 520%;
+  margin-top: 500%;
   z-index: 6;
 }
 .parallax .group .wave5 .cover {
@@ -217,7 +283,7 @@ html {
   -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
   background-image: url("wave4.png");
-  margin-top: 560%;
+  margin-top: 480%;
   z-index: 5;
 }
 .parallax .group .wave3 {
@@ -226,7 +292,7 @@ html {
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
   background-image: url("wave3.png");
-  margin-top: 560%;
+  margin-top: 470%;
   z-index: 4;
 }
 .parallax .group .wave2 {
@@ -235,7 +301,7 @@ html {
   -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
   background-image: url("wave2.png");
-  margin-top: 610%;
+  margin-top: 510%;
   z-index: 3;
 }
 .parallax .group .wave1 {
@@ -244,7 +310,7 @@ html {
   -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
   background-image: url("wave1.png");
-  margin-top: 630%;
+  margin-top: 525%;
   z-index: 2;
 }
 .parallax .based {
@@ -253,19 +319,4 @@ html {
   width: 100%;
   bottom: 0px;
   background-color: transparent;
-}
-.footer {
-  -webkit-transform: translateZ(-1px) scale(2);
-  -ms-transform: translateZ(-1px) scale(2);
-  transform: translateZ(-1px) scale(2);
-  margin-top: 700%;
-  height: 50px;
-  background-color: #424242;
-  color: #FFFFFF;
-  z-index: 6;
-}
-.footer p {
-  margin: auto;
-  padding: 50px;
-  max-width: 900px;
 }
