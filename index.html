@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible">
     <title>Tara Yuen</title>
-    <link rel="shortcut icon" href="ty.ico"/>
+    <link rel="shortcut icon" href="img/ty.ico"/>
 
     <!-- Standard -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
@@ -21,34 +21,34 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
 <body id="top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="top">Tara Yuen</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="www.tarayuen.me">Tara Yuen</a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a title="Resume" href="resume.pdf"><i class="fa fa-file-text fa-lg"></i></a>
+                </li>
+                <li>
+                    <a title="LinkedIn" href="https://ca.linkedin.com/in/tarayuen"><i class="fa fa-linkedin fa-lg"></i></a>
+                </li>
+                <li>
+                    <a title="GitHub" href="https://github.com/tarayuen"><i id="github" class="fa fa-github fa-lg"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <ul class="nav navbar-nav navbar-right" id="navbar-items">
-        <li class="hidden">
-            <a class="page-scroll" href="#top"></a>
-        </li>
-        <li>
-            <a title="Resume" href="resume.pdf"><i class="fa fa-file-text fa-lg hidden-xs"></i></a>
-        </li>
-        <li>
-            <a title="LinkedIn" href="https://ca.linkedin.com/in/tarayuen"><i class="fa fa-linkedin fa-lg hidden-xs"></i></a>
-        </li>
-        <li>
-            <a title="GitHub" href="https://github.com/tarayuen"><i id="github" class="fa fa-github fa-lg hidden-xs"></i></a>
-        </li>
-    </ul>
 </nav>
 <!-- End Navbar -->
 
