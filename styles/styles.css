@@ -199,6 +199,9 @@ html {
   clear: right;
   padding-bottom: 100px;
 }
+.mountains p a {
+  color: #ffffff;
+}
 .parallax .group #about {
   background-color: #26C6DA;
 }
