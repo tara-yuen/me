@@ -45,7 +45,7 @@ body {
   color: #ffffff;
   text-align: center;
   padding-top: 40%;
-  font-size: 50px;
+  font-size: 5em;
 }
 .fa-phone,
 .fa-envelope {
@@ -54,38 +54,29 @@ body {
 
 /* Portfolio
 --------------------------------------------- */
-.connect {
-  overflow: auto;
-}
 .connect-pic {
   margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 15%;
+  padding-right: 15%;
   text-align: left;
   position: relative;
-  float: right;
-  width: 40%;
 }
 .connect-pic:hover {
   opacity: 0.8;
 }
 .connect p {
   font-size: 15px;
-  text-align: left;
+  text-align: right;
   margin-top: 5%;
   margin-bottom: 10;
-  margin-left: 15%;
+  padding-left: 15%;
 }
 .planit {
-  overflow: auto;
+  padding-bottom: 300px;
 }
 .planit-pic {
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 15%;
-  margin-right: 2%;
-  float: left;
-  width: 40%;
+  padding-left: 15%;
 }
 .planit-pic:hover {
   opacity: 0.8;
@@ -95,9 +86,9 @@ body {
 }
 .planit p {
   font-size: 15px;
-  text-align: right;
+  text-align: left;
   margin-top: 5%;
-  margin-right: 15%;
+  padding-right: 15%;
   padding-bottom: 100px;
 }
 
@@ -196,7 +187,7 @@ html {
   padding-top: 100px;
 }
 .parallax .group .content h1 {
-  font-size: 50px;
+  font-size: 3em;
 }
 .parallax .group .content .mountains p {
   margin: auto;
