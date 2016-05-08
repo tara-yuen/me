@@ -142,7 +142,7 @@ html {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url(profile.png);
+  background-image: url("../img/profile.png");
   right: 0px;
   width: 20vw;
   margin-right: -50%;
